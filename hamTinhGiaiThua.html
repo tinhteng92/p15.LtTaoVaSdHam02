@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+
+    function giaiThua() {
+        let n = +prompt("Nhập 1 số bất kì: ");
+        let result = 1
+        if (n > 0) {
+            for (let i = 1; i <= n; i++) {
+                result *= i;
+            }
+        }else {
+            alert("Đây là một số âm")
+        }
+        return result
+    }
+    alert(giaiThua());
+
+</script>
